@@ -142,7 +142,7 @@ namespace C_Exercises_2
             // the sum of the even values is greater.
             //  If the sum of the Odds is great, write the Sum of the Odd values is great.
 
-            /*
+            
             int[] Numbers = new int[10];
 
             int oddNumbersSum = 0;
@@ -195,7 +195,7 @@ namespace C_Exercises_2
             Console.WriteLine("Amount of the odd Numbers : " + oddNumbersAmountSum);
             Console.ReadLine();
 
-            */
+            
 
         }
 
