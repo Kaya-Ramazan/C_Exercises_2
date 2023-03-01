@@ -1,16 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Runtime.CompilerServices;
-using System.Text;
-using System.Threading.Tasks;
-using System.Xml.Linq;
 
 namespace C_Exercises_2
 {
     class Program
     {
-       
+
 
         static void Main(string[] args)
         {
@@ -148,6 +142,7 @@ namespace C_Exercises_2
             // the sum of the even values is greater.
             //  If the sum of the Odds is great, write the Sum of the Odd values is great.
 
+            /*
             int[] Numbers = new int[10];
 
             int oddNumbersSum = 0;
@@ -158,34 +153,34 @@ namespace C_Exercises_2
 
             int userValue;
 
-            for(int i =0; i < Numbers.Length; i++)
+            for (int i = 0; i < Numbers.Length; i++)
             {
-                Console.Write((i+0) + " .value enter please : " );
+                Console.Write((i + 0) + " .value enter please : ");
                 userValue = int.Parse(Console.ReadLine());
 
                 Numbers[i] = userValue; // I filled inside of my array with values i got from the user 
             }
 
-            for(int j =0; j<Numbers.Length; j++) 
+            for (int j = 0; j < Numbers.Length; j++)
             {
-                if (Numbers[j]%2==0) 
+                if (Numbers[j] % 2 == 0)
                 {
                     evenNumbersSum++;
                     evenNumbersAmountSum += Numbers[j];
                 }
-                else 
+                else
                 {
                     oddNumbersSum++;
                     oddNumbersAmountSum += Numbers[j];
                 }
             }
 
-            if(oddNumbersSum > evenNumbersSum) 
+            if (oddNumbersSum > evenNumbersSum)
             {
                 Console.WriteLine("Sum of the Odd Numbers is bigger than Sum of the even Numbers");
 
             }
-            else 
+            else
             {
                 Console.WriteLine("Sum of the even Numbers is bigger than Sum of the odd Numbers. ");
             }
@@ -197,10 +192,10 @@ namespace C_Exercises_2
             Console.WriteLine("***************************************************");
 
             Console.WriteLine("Sum of the odd Numbers : " + oddNumbersSum);
-            Console.WriteLine("Amount of the odd Numbers : " + oddNumbersAmountSum );
+            Console.WriteLine("Amount of the odd Numbers : " + oddNumbersAmountSum);
             Console.ReadLine();
 
-
+            */
 
         }
 
