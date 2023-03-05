@@ -12,8 +12,23 @@ namespace Access_Modifiers
         {
             // public --- private 
 
-            employee1.employeeName = "Kimmo";
-            employee2.employeeSurname
+            Employee employe1 = new Employee(); // we define new attribute 
+            Employee employe2 = new Employee(); // we define new attribute 
+
+            employe1.employeeName = "Kimmo";
+            employe2.employeeName = "Ramazan";
+
+            employe1.employeeSurname = "Lahtinen";
+            employe2.employeeSurname = "Kaya";
+
+            employe1.employeeGender = "Male";
+            employe2.employeeGender = "Male";
+
+            employe1.employeeSalary = 3500;
+            employe2.employeeSalary = 2750;
+
+            employe1.
+
 
 
         }

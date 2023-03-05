@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{36378E27-B85C-4E02-85B4-55858CEBE5BC}</ProjectGuid>
+    <ProjectGuid>{895F2844-78F5-4F25-97AF-AA9A3905EE08}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>StudentProjectLectures</RootNamespace>
-    <AssemblyName>StudentProjectLectures</AssemblyName>
+    <RootNamespace>Encapsulation</RootNamespace>
+    <AssemblyName>Encapsulation</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -45,7 +45,7 @@
   <ItemGroup>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Student.cs" />
+    <Compile Include="student.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
