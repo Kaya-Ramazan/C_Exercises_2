@@ -42,7 +42,7 @@ namespace StudentProjectLectures
             Console.WriteLine("Student MidTerm1 : " + midTerm2);
             Console.WriteLine("Student final : " + final);
             Console.WriteLine("Student School name : " + SchoolName);
-
+            C# Dosya Oluşturma İşlemleri, 
         }
 
         public double FindstudentGPA() //  we define methods about student grade avarage
